@@ -7,3 +7,4 @@ export const I18N_DATA = {
 };
 
 export const DEFAULT_LANGUAGE = 'en';
+export const SCROLL_AMOUNT = 400;

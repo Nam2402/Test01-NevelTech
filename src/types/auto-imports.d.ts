@@ -63,5 +63,7 @@ declare global {
 // for type re-export
 declare global {
   // @ts-ignore
+  export type { TabsProps } from 'antd'
+  // @ts-ignore
   export type { FunctionComponent, ReactNode, Key, ComponentType, ComponentProps, Ref } from 'react'
 }

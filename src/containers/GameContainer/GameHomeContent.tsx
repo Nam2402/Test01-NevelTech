@@ -1,11 +1,12 @@
 import { hotCategoryData, hotGameData } from 'api/mock-data';
+import { SCROLL_AMOUNT } from 'config/constants';
 
 // eslint-disable-next-line max-lines-per-function
 const GameHomeContent: FunctionComponent = () => {
   const { t } = useTranslation();
 
   const renderHotGame = (): JSX.Element => (
-    <Carousel scrollAmount={300} title={t('hot_game')}>
+    <Carousel scrollAmount={SCROLL_AMOUNT} title={t('hot_game')}>
       <Flex gap={20}>
         {map(hotGameData, ({ id, name, description, icon, image }) => (
           <div key={id} className="games-content__hot-game">
@@ -27,7 +28,7 @@ const GameHomeContent: FunctionComponent = () => {
   );
 
   const renderHottestCategory = (): JSX.Element => (
-    <Carousel scrollAmount={300} title={t('hottest_category')}>
+    <Carousel scrollAmount={SCROLL_AMOUNT} title={t('hottest_category')}>
       <Flex gap={20}>
         {map(
           hotCategoryData,

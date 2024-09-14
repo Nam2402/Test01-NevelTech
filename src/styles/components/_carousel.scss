@@ -19,6 +19,10 @@
   }
 
   &__action {
+    img {
+      cursor: pointer;
+    }
+
     &--disabled {
       cursor: not-allowed;
       opacity: 0.3;
