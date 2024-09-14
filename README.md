@@ -48,3 +48,5 @@ APP_URL=
 NODE_ENV=development
 PORT=3000
 ```
+![Screenshot 2024-09-14 at 22 35 29](https://github.com/user-attachments/assets/1036da94-10d9-4ecb-b57d-8eca06fbde01)
+![Screenshot 2024-09-14 at 22 35 17](https://github.com/user-attachments/assets/f93ad611-9c69-4120-a240-7a20f769b3dc)
