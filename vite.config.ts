@@ -48,6 +48,8 @@ export default defineConfig(({ mode }): UserConfig => {
         i18n: path.resolve(__dirname, 'i18n'),
         assets: path.resolve(__dirname, 'assets'),
         src: path.resolve(__dirname, 'src'),
+        api: path.resolve(__dirname, 'src/api'),
+        enums: path.resolve(__dirname, 'src/enums'),
       },
       extensions: ['.tsx', '.ts', '.jsx', '.js', '.json'],
     },
@@ -120,10 +122,26 @@ export default defineConfig(({ mode }): UserConfig => {
           'react',
           { react: ['cloneElement', 'StrictMode', 'Suspense'] },
           {
-            antd: ['ConfigProvider'],
+            antd: [
+              'ConfigProvider',
+              ['Layout', 'AntLayout'],
+              'Row',
+              'Col',
+              'Flex',
+              ['Divider', 'AntDivider'],
+              'Tabs',
+              'Input',
+              'Button',
+              ['Carousel', 'AntCarousel'],
+            ],
           },
           {
-            'lodash-es': ['map'],
+            from: 'antd',
+            imports: ['TabsProps'],
+            type: true,
+          },
+          {
+            'lodash-es': ['map', 'subtract', 'range'],
           },
           {
             'react-helmet-async': ['HelmetProvider', 'Helmet'],
@@ -140,7 +158,12 @@ export default defineConfig(({ mode }): UserConfig => {
             ],
           },
           {
-            'react-i18next': ['initReactI18next', 'Trans', 'Translation'],
+            'react-i18next': [
+              'useTranslation',
+              'initReactI18next',
+              'Trans',
+              'Translation',
+            ],
           },
           {
             from: 'react',

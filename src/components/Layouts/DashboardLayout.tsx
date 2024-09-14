@@ -3,7 +3,8 @@ const DashboardLayout: FunctionComponent<{ children: ReactNode }> = ({
 }) => {
   return (
     <div className="dashboard-layout">
-      <div>{children}</div>
+      <Header />
+      <div className="dashboard-layout__main">{children}</div>
     </div>
   );
 };

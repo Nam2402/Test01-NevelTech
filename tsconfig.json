@@ -41,7 +41,8 @@
       "config/*": ["src/config/*"],
       "components/*": ["src/components/*"],
       "api/*": ["src/api/*"],
-      "pages/*": ["src/pages/*"]
+      "pages/*": ["src/pages/*"],
+      "enums/*": ["src/enums/*"]
     },
     "typeRoots": ["./node_modules/@types"],
     "types": ["node"],

@@ -1,6 +1,4 @@
-import HomeContainer from 'containers/HomeContainer';
-
-const SignInPage: FunctionComponent = () => {
+const HomePage: FunctionComponent = () => {
   return (
     <>
       <Translation>
@@ -10,9 +8,8 @@ const SignInPage: FunctionComponent = () => {
           </Helmet>
         )}
       </Translation>
-      <HomeContainer />
     </>
   );
 };
 
-export default SignInPage;
+export default HomePage;

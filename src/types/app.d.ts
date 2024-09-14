@@ -5,4 +5,14 @@ declare namespace App {
   interface Dictionary<T> {
     [key: number | string]: T;
   }
+
+  type MenuItem = {
+    label?: string;
+    link?: string;
+  };
+
+  type Information = {
+    title?: string;
+    contents?: string[];
+  };
 }

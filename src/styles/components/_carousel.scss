@@ -1,0 +1,27 @@
+.carousel {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  position: relative;
+
+  &__title {
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--color-black);
+  }
+
+  &__content {
+    position: relative;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    scroll-behavior: smooth;
+  }
+
+  &__action {
+    &--disabled {
+      cursor: not-allowed;
+      opacity: 0.3;
+    }
+  }
+}

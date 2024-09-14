@@ -45,6 +45,21 @@
     "useRef": true,
     "useState": true,
     "useSyncExternalStore": true,
-    "useTransition": true
+    "useTransition": true,
+    "AntCarousel": true,
+    "AntDivider": true,
+    "AntLayout": true,
+    "Button": true,
+    "Col": true,
+    "Flex": true,
+    "Input": true,
+    "Row": true,
+    "Tabs": true,
+    "TabsProps": true,
+    "range": true,
+    "subtract": true,
+    "useTranslation": true,
+    "Carousel": true,
+    "Header": true
   }
 }
