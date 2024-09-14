@@ -4,7 +4,7 @@ const HomePage: FunctionComponent = () => {
       <Translation>
         {(t) => (
           <Helmet>
-            <title>{t('sign_in')}</title>
+            <title>{t('home')}</title>
           </Helmet>
         )}
       </Translation>
