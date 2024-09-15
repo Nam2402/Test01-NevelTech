@@ -126,3 +126,16 @@ export const hotCategoryData: Game.HotCategory[] = [
     icon: RESOURCES.POKER_ICON,
   },
 ];
+
+export const hotGameDetail: Game.HotGame = {
+  id: '1',
+  name: 'Tree Of Fortune',
+  description: 'Legend has it that a farmer was granted a seed from a deity.',
+  details: [
+    { title: 'Volatility', value: 'MEDIUM' },
+    { title: 'RTP', value: '95.01%' },
+    { title: 'Maximum Win', value: 'x5000' },
+  ],
+  image: RESOURCES.HOT_GAME_IMAGE,
+  icon: RESOURCES.CATEGORY_LOGO_3,
+};

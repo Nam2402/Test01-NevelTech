@@ -5,6 +5,7 @@ declare namespace Game {
     description?: string;
     icon: string;
     image: string;
+    details?: HotGameDetail[];
   };
 
   type HotCategory = {
@@ -14,5 +15,10 @@ declare namespace Game {
     logos: string[];
     icon: string;
     image: string;
+  };
+
+  type HotGameDetail = {
+    title?: string;
+    value?: string;
   };
 }

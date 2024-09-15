@@ -42,7 +42,8 @@
       "components/*": ["src/components/*"],
       "api/*": ["src/api/*"],
       "pages/*": ["src/pages/*"],
-      "enums/*": ["src/enums/*"]
+      "enums/*": ["src/enums/*"],
+      "hooks/*": ["src/hooks/*"]
     },
     "typeRoots": ["./node_modules/@types"],
     "types": ["node"],

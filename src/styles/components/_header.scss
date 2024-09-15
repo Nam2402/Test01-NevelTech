@@ -3,7 +3,7 @@
   display: flex;
   position: fixed;
   width: 100%;
-  background: rgba(0, 0, 0, 60%);
+  background: var(--background-transparent-5);
   z-index: 9999;
 
   &__logo {

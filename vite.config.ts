@@ -50,6 +50,7 @@ export default defineConfig(({ mode }): UserConfig => {
         src: path.resolve(__dirname, 'src'),
         api: path.resolve(__dirname, 'src/api'),
         enums: path.resolve(__dirname, 'src/enums'),
+        hooks: path.resolve(__dirname, 'src/hooks'),
       },
       extensions: ['.tsx', '.ts', '.jsx', '.js', '.json'],
     },
@@ -125,14 +126,13 @@ export default defineConfig(({ mode }): UserConfig => {
             antd: [
               'ConfigProvider',
               ['Layout', 'AntLayout'],
-              'Row',
               'Col',
               'Flex',
               ['Divider', 'AntDivider'],
-              'Tabs',
               'Input',
               'Button',
               ['Carousel', 'AntCarousel'],
+              'Select',
             ],
           },
           {

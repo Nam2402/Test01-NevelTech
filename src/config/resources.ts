@@ -22,6 +22,12 @@ import musicIcon from 'assets/images/music.svg';
 import pokerIcon from 'assets/images/poker.svg';
 import leftArrowIcon from 'assets/images/left-arrow.svg';
 import rightArrowIcon from 'assets/images/right-arrow.svg';
+import menu from 'assets/images/menu.svg';
+import slideMobile1 from 'assets/images/slide-mobile1.png';
+import right from 'assets/images/right.svg';
+import filter from 'assets/images/filter.svg';
+import plus from 'assets/images/plus.svg';
+import hotGameImage from 'assets/images/hot-game-img.svg';
 
 export default {
   LOGO: logo,
@@ -48,4 +54,10 @@ export default {
   POKER_ICON: pokerIcon,
   LEFT_ARROW_ICON: leftArrowIcon,
   RIGHT_ARROW_ICON: rightArrowIcon,
+  MENU: menu,
+  SLIDE_MOBILE_1: slideMobile1,
+  RIGHT: right,
+  FILTER: filter,
+  PLUS: plus,
+  HOT_GAME_IMAGE: hotGameImage,
 };

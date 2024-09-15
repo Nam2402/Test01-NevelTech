@@ -1,6 +1,10 @@
+import useCheckScreen from 'hooks/use-check-screen';
 import GameContainer from 'containers/GameContainer';
+import GameMobileContainer from 'containers/GameMobileContainer';
 
 const GamePage: FunctionComponent = () => {
+  const isMobileScreen = useCheckScreen();
+
   return (
     <>
       <Translation>
@@ -10,7 +14,7 @@ const GamePage: FunctionComponent = () => {
           </Helmet>
         )}
       </Translation>
-      <GameContainer />
+      {isMobileScreen ? <GameMobileContainer /> : <GameContainer />}
     </>
   );
 };

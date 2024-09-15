@@ -10,9 +10,7 @@ const Footer: FunctionComponent = () => {
         <Flex vertical gap={20}>
           <div>
             <img src={RESOURCES.LOGO} />
-            <div className="footer__description">
-              {t('valletta _buildings')}
-            </div>
+            <div className="footer__description">{t('valletta_buildings')}</div>
           </div>
           <Flex gap={16}>
             <img src={RESOURCES.TWITTER} />
@@ -21,7 +19,7 @@ const Footer: FunctionComponent = () => {
           </Flex>
         </Flex>
         <Col span={14}>
-          <Flex>
+          <Flex justify="center">
             {map(appInformation, ({ title, contents }, index) => (
               <Flex key={index} vertical gap={20} flex={1}>
                 <span className="footer__info-title">{title}</span>

@@ -39,11 +39,11 @@ const Header: FunctionComponent = () => {
       <Col span={8}>
         <img className="header__logo" src={RESOURCES.LOGO_WHITE} />
       </Col>
-      <div className="header__menu">
+      <Col span={16} className="header__menu">
         {map(menuList, (menu, index) => (
           <MenuItem className="header__menu-item" menu={menu} key={index} />
         ))}
-      </div>
+      </Col>
     </AntLayout.Header>
   );
 };

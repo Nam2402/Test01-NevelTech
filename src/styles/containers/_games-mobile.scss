@@ -1,0 +1,324 @@
+.games-mobile-container {
+  display: flex;
+  flex-direction: column;
+
+  .load-more-btn {
+    display: flex;
+    margin: 50px 20px 20px;
+    height: 50px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    background: var(--background-transparent-3);
+    border: 1px solid var(--color-transparent-3);
+
+    img {
+      width: 16px;
+    }
+  }
+
+  .games-banner {
+    position: relative;
+
+    .ant-carousel {
+      width: 100%;
+
+      .slick-dots {
+        button {
+          border-radius: 100%;
+          width: 8px;
+          height: 8px;
+        }
+
+        li {
+          width: 11px;
+        }
+      }
+
+      .slick-dots-bottom {
+        bottom: 130px;
+      }
+    }
+
+    &__header {
+      display: flex;
+      justify-content: space-between;
+      position: absolute;
+      top: 0;
+      width: 100%;
+    }
+
+    &__image {
+      width: 100%;
+    }
+
+    &__logo {
+      width: 53px;
+      margin: 14px;
+    }
+
+    &__info {
+      position: absolute;
+      bottom: 30px;
+      width: 100%;
+    }
+
+    &__name {
+      font-size: 24px;
+      color: var(--color-white);
+    }
+
+    &__detail {
+      font-size: 14px;
+      color: var(--color-white);
+    }
+  }
+
+  .games-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    &__menu-items {
+      height: 80px;
+      display: flex;
+      gap: 10px;
+      border-bottom: 1px solid var(--color-transparent-1);
+    }
+
+    &__menu-item {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 8px;
+      opacity: 0.2;
+      cursor: pointer;
+
+      img {
+        width: 20px;
+        height: 20px;
+      }
+
+      span {
+        font-size: 10px;
+        text-transform: uppercase;
+      }
+
+      &--active {
+        opacity: 1;
+        font-weight: 600;
+        border-bottom: 1px solid var(--color-black);
+      }
+
+      &:last-child {
+        border-left: 1px solid var(--color-transparent-1);
+      }
+    }
+
+    &__title {
+      padding: 0 20px;
+      font-size: 18px;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: var(--color-black);
+    }
+
+    &__hot-category {
+      display: grid !important;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      padding: 20px;
+      border-radius: 22px;
+      background: var(--background-transparent-1);
+
+      img {
+        width: 100%;
+      }
+    }
+
+    &__category-left {
+      display: grid;
+      gap: 20px;
+      grid-template-rows: 2fr 1fr;
+      height: 100%;
+    }
+
+    &__category-right {
+      display: grid;
+      gap: 20px;
+      grid-template-rows: 1fr 2fr;
+      height: 100%;
+    }
+
+    &__category-info {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      border-radius: 20px;
+      padding: 20px;
+      background: var(--background-dodger-blue);
+
+      img {
+        height: 24px;
+        width: 24px;
+      }
+    }
+
+    &__category-image {
+      display: flex;
+      flex-direction: column;
+      border-radius: 20px;
+    }
+
+    &__category-name {
+      color: var(--color-white);
+      font-size: 22px;
+    }
+
+    &__category-description {
+      color: var(--color-white);
+      font-size: 14px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+    }
+
+    &__category-logo {
+      display: grid;
+      gap: 20px;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .ant-carousel {
+      width: 100%;
+
+      .slick-dots {
+        button {
+          border-radius: 100%;
+          width: 8px;
+          height: 8px;
+          background: var(--background-transparent-4);
+        }
+
+        li {
+          width: 11px;
+        }
+
+        .slick-active {
+          button {
+            background: var(--background-transparent-4);
+          }
+        }
+      }
+
+      .slick-dots-bottom {
+        bottom: -20px;
+      }
+    }
+
+    &__game-header {
+      display: flex;
+      align-items: center;
+      flex: 1;
+      justify-content: space-between;
+
+      .ant-select {
+        margin-right: 20px;
+        width: 30%;
+      }
+    }
+
+    &__hot-game-item {
+      display: flex;
+      flex-direction: column;
+      margin: 0 30px;
+      border-radius: 14px;
+      position: relative;
+    }
+
+    &__hot-game-img {
+      object-fit: cover;
+      width: 100%;
+      max-height: 180px;
+      border-top-left-radius: 24px;
+      border-top-right-radius: 24px;
+    }
+
+    &__hot-game-info {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding: 20px;
+      width: 100%;
+      background: var(--background-buddha-gold);
+      border-bottom-left-radius: 24px;
+      border-bottom-right-radius: 24px;
+    }
+
+    &__hot-game-name {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--color-white);
+    }
+
+    &__hot-game-text {
+      font-size: 12px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      color: var(--color-white);
+    }
+
+    &__hot-game-label {
+      font-size: 14px;
+      color: var(--color-white);
+    }
+  }
+
+  .games-info {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    &__item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid var(--color-transparent-1);
+
+      img {
+        opacity: 0.5;
+        width: 20px;
+        margin-bottom: 30px;
+      }
+    }
+
+    &__item-title {
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 13px;
+      margin-bottom: 30px;
+    }
+  }
+
+  .footer {
+    padding: 20px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+
+    &__description {
+      font-size: 12px;
+      color: var(--color-black);
+      opacity: 0.4;
+    }
+  }
+}
