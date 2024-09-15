@@ -5,11 +5,11 @@ const Header: FunctionComponent = () => {
   const { t } = useTranslation();
   const menuList: App.MenuItem[] = [
     {
-      link: '/',
+      link: '/home',
       label: t('home'),
     },
     {
-      link: '/games',
+      link: '/',
       label: t('games'),
     },
     {

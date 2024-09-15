@@ -7,10 +7,10 @@ export default [
     path: '/',
     element: <DashboardPage />,
     children: [
-      { index: true, element: <HomePage /> },
+      { index: true, element: <GamePage /> },
       {
-        path: '/games',
-        element: <GamePage />,
+        path: '/home',
+        element: <HomePage />,
       },
       {
         path: '/news',
