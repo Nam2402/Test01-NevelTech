@@ -29,8 +29,8 @@ const GameMobileContent: FunctionComponent = () => {
             <Flex gap={20}>
               {map(details, ({ title, value }) => (
                 <Flex key={title} vertical gap={6} flex={1}>
+                  <span className="games-content__hot-game-value">{value}</span>
                   <span className="games-content__hot-game-label">{title}</span>
-                  <span className="games-content__hot-game-text">{value}</span>
                 </Flex>
               ))}
             </Flex>

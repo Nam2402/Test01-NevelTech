@@ -276,8 +276,14 @@
       color: var(--color-white);
     }
 
-    &__hot-game-label {
+    &__hot-game-value {
       font-size: 14px;
+      color: var(--color-white);
+    }
+
+    &__hot-game-label {
+      font-size: 12px;
+      opacity: 0.5;
       color: var(--color-white);
     }
   }

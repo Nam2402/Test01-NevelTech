@@ -43,12 +43,9 @@
 - Use nodejs version 18
 - `Config for development .env.development`
 
-```
-APP_URL=
-NODE_ENV=development
-PORT=3000
-```
-
-![Screenshot 2024-09-14 at 23 21 28](https://github.com/user-attachments/assets/aba966eb-0a1e-42d1-a8ba-b31c9e942c55)
-![Screenshot 2024-09-14 at 23 21 50](https://github.com/user-attachments/assets/47f609f3-83cc-4dd2-a690-f0e16970d57f)
-![Screenshot 2024-09-14 at 23 22 05](https://github.com/user-attachments/assets/974df575-64f4-460b-b9e8-676c9b20f69c)
+![Screenshot 2024-09-15 at 17 09 43](https://github.com/user-attachments/assets/1685a828-7a3e-4995-b54a-7a9a18bd8ad7)
+![Screenshot 2024-09-15 at 17 09 35](https://github.com/user-attachments/assets/f36f4b7c-cf08-4590-8868-1863d0cf9a86)
+![Screenshot 2024-09-15 at 17 09 15](https://github.com/user-attachments/assets/04a58dec-041e-471f-9520-08a168f2cc2d)
+![Screenshot 2024-09-15 at 17 08 31](https://github.com/user-attachments/assets/7c849512-4e81-4124-8140-9fee281717dd)
+![Screenshot 2024-09-15 at 17 08 16](https://github.com/user-attachments/assets/5d6f16f9-cc3f-474f-a523-87a64cd13bf9)
+![Screenshot 2024-09-15 at 17 07 58](https://github.com/user-attachments/assets/3c228eb2-ee1d-4d51-a12b-cc5401c510c0)
