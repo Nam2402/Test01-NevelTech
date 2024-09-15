@@ -1,0 +1,1 @@
+import{j as r,W as t}from"./app.5d2e3646.js";import{T as o}from"./app.adad9980.chunk.js";import"./app.a2f1090a.chunk.js";const m=()=>r.jsx(r.Fragment,{children:r.jsx(o,{children:e=>r.jsx(t,{children:r.jsx("title",{children:e("home")})})})});export{m as default};

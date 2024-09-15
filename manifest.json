@@ -1,17 +1,17 @@
 {
-  "_app.5d4b7241.chunk.js": {
-    "file": "app.5d4b7241.chunk.js",
-    "imports": [
-      "_app.c893d01c.chunk.js"
-    ]
-  },
-  "_app.c893d01c.chunk.js": {
-    "file": "app.c893d01c.chunk.js",
+  "_app.a2f1090a.chunk.js": {
+    "file": "app.a2f1090a.chunk.js",
     "imports": [
       "index.html"
     ]
   },
-  "_app.dc7e0f8a.chunk.js": {
+  "_app.adad9980.chunk.js": {
+    "file": "app.adad9980.chunk.js",
+    "imports": [
+      "_app.a2f1090a.chunk.js"
+    ]
+  },
+  "_app.c8c3c00b.chunk.js": {
     "assets": [
       "assets.4aae5bd4.svg",
       "assets.5e0ee4bf.svg",
@@ -44,7 +44,7 @@
       "assets.9c4e0b1c.svg",
       "assets.2f140e84.svg"
     ],
-    "file": "app.dc7e0f8a.chunk.js",
+    "file": "app.c8c3c00b.chunk.js",
     "imports": [
       "index.html"
     ]
@@ -182,37 +182,37 @@
       "src/pages/DashboardPage.tsx",
       "src/pages/GamePage.tsx"
     ],
-    "file": "app.dea0d8d3.js",
+    "file": "app.5d2e3646.js",
     "isEntry": true,
     "src": "index.html"
   },
   "src/pages/DashboardPage.tsx": {
-    "file": "app.728d4eed.chunk.js",
+    "file": "app.ada741e7.chunk.js",
     "imports": [
       "index.html",
-      "_app.dc7e0f8a.chunk.js",
-      "_app.c893d01c.chunk.js"
+      "_app.c8c3c00b.chunk.js",
+      "_app.a2f1090a.chunk.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/DashboardPage.tsx"
   },
   "src/pages/GamePage.tsx": {
-    "file": "app.0c19b390.chunk.js",
+    "file": "app.32694fb0.chunk.js",
     "imports": [
       "index.html",
-      "_app.dc7e0f8a.chunk.js",
-      "_app.c893d01c.chunk.js",
-      "_app.5d4b7241.chunk.js"
+      "_app.c8c3c00b.chunk.js",
+      "_app.a2f1090a.chunk.js",
+      "_app.adad9980.chunk.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/GamePage.tsx"
   },
   "src/pages/HomePage.tsx": {
-    "file": "app.ef9d0a8e.chunk.js",
+    "file": "app.59a040ba.chunk.js",
     "imports": [
       "index.html",
-      "_app.5d4b7241.chunk.js",
-      "_app.c893d01c.chunk.js"
+      "_app.adad9980.chunk.js",
+      "_app.a2f1090a.chunk.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/HomePage.tsx"
