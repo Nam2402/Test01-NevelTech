@@ -1,0 +1,220 @@
+{
+  "_app.a2f1090a.chunk.js": {
+    "file": "app.a2f1090a.chunk.js",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_app.adad9980.chunk.js": {
+    "file": "app.adad9980.chunk.js",
+    "imports": [
+      "_app.a2f1090a.chunk.js"
+    ]
+  },
+  "_app.c8c3c00b.chunk.js": {
+    "assets": [
+      "assets.4aae5bd4.svg",
+      "assets.5e0ee4bf.svg",
+      "assets.0daf9f42.png",
+      "assets.4f76ef9a.svg",
+      "assets.ce2f5b8b.svg",
+      "assets.b640607b.svg",
+      "assets.4ea0a1ab.svg",
+      "assets.2e50e3f8.svg",
+      "assets.f2b38cba.svg",
+      "assets.7b0acc68.svg",
+      "assets.d567a87b.png",
+      "assets.47dc773d.svg",
+      "assets.72518d23.png",
+      "assets.bc7c34f1.svg",
+      "assets.d84b9afd.svg",
+      "assets.439f4db3.svg",
+      "assets.c4832d67.svg",
+      "assets.b33f6af7.svg",
+      "assets.41d595b6.svg",
+      "assets.48c09c4e.svg",
+      "assets.5e2344d0.svg",
+      "assets.526421f7.svg",
+      "assets.3c2e3021.svg",
+      "assets.a887c2ee.svg",
+      "assets.4f51cc36.svg",
+      "assets.36dd4378.png",
+      "assets.1bc203b5.svg",
+      "assets.b47f1a14.svg",
+      "assets.9c4e0b1c.svg",
+      "assets.2f140e84.svg"
+    ],
+    "file": "app.c8c3c00b.chunk.js",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "assets/images/all-games.svg": {
+    "file": "assets.7b0acc68.svg",
+    "src": "assets/images/all-games.svg"
+  },
+  "assets/images/category-image1.svg": {
+    "file": "assets.d84b9afd.svg",
+    "src": "assets/images/category-image1.svg"
+  },
+  "assets/images/category-image2.svg": {
+    "file": "assets.439f4db3.svg",
+    "src": "assets/images/category-image2.svg"
+  },
+  "assets/images/category-logo1.svg": {
+    "file": "assets.c4832d67.svg",
+    "src": "assets/images/category-logo1.svg"
+  },
+  "assets/images/category-logo2.svg": {
+    "file": "assets.b33f6af7.svg",
+    "src": "assets/images/category-logo2.svg"
+  },
+  "assets/images/category-logo3.svg": {
+    "file": "assets.41d595b6.svg",
+    "src": "assets/images/category-logo3.svg"
+  },
+  "assets/images/category-logo4.svg": {
+    "file": "assets.48c09c4e.svg",
+    "src": "assets/images/category-logo4.svg"
+  },
+  "assets/images/filter.svg": {
+    "file": "assets.b47f1a14.svg",
+    "src": "assets/images/filter.svg"
+  },
+  "assets/images/game-slide1.png": {
+    "file": "assets.0daf9f42.png",
+    "src": "assets/images/game-slide1.png"
+  },
+  "assets/images/home.svg": {
+    "file": "assets.f2b38cba.svg",
+    "src": "assets/images/home.svg"
+  },
+  "assets/images/hot-game-icon1.svg": {
+    "file": "assets.47dc773d.svg",
+    "src": "assets/images/hot-game-icon1.svg"
+  },
+  "assets/images/hot-game-icon2.svg": {
+    "file": "assets.bc7c34f1.svg",
+    "src": "assets/images/hot-game-icon2.svg"
+  },
+  "assets/images/hot-game-img.svg": {
+    "file": "assets.2f140e84.svg",
+    "src": "assets/images/hot-game-img.svg"
+  },
+  "assets/images/hot-game1.png": {
+    "file": "assets.d567a87b.png",
+    "src": "assets/images/hot-game1.png"
+  },
+  "assets/images/hot-game2.png": {
+    "file": "assets.72518d23.png",
+    "src": "assets/images/hot-game2.png"
+  },
+  "assets/images/left-arrow.svg": {
+    "file": "assets.3c2e3021.svg",
+    "src": "assets/images/left-arrow.svg"
+  },
+  "assets/images/linkedin.svg": {
+    "file": "assets.b640607b.svg",
+    "src": "assets/images/linkedin.svg"
+  },
+  "assets/images/logo-white.svg": {
+    "file": "assets.5e0ee4bf.svg",
+    "src": "assets/images/logo-white.svg"
+  },
+  "assets/images/logo.svg": {
+    "file": "assets.4aae5bd4.svg",
+    "src": "assets/images/logo.svg"
+  },
+  "assets/images/menu.svg": {
+    "file": "assets.4f51cc36.svg",
+    "src": "assets/images/menu.svg"
+  },
+  "assets/images/music.svg": {
+    "file": "assets.5e2344d0.svg",
+    "src": "assets/images/music.svg"
+  },
+  "assets/images/plus.svg": {
+    "file": "assets.9c4e0b1c.svg",
+    "src": "assets/images/plus.svg"
+  },
+  "assets/images/poker.svg": {
+    "file": "assets.526421f7.svg",
+    "src": "assets/images/poker.svg"
+  },
+  "assets/images/right-arrow.svg": {
+    "file": "assets.a887c2ee.svg",
+    "src": "assets/images/right-arrow.svg"
+  },
+  "assets/images/right.svg": {
+    "file": "assets.1bc203b5.svg",
+    "src": "assets/images/right.svg"
+  },
+  "assets/images/search.svg": {
+    "file": "assets.2e50e3f8.svg",
+    "src": "assets/images/search.svg"
+  },
+  "assets/images/slide-mobile1.png": {
+    "file": "assets.36dd4378.png",
+    "src": "assets/images/slide-mobile1.png"
+  },
+  "assets/images/timeline.svg": {
+    "file": "assets.4ea0a1ab.svg",
+    "src": "assets/images/timeline.svg"
+  },
+  "assets/images/twitter.svg": {
+    "file": "assets.4f76ef9a.svg",
+    "src": "assets/images/twitter.svg"
+  },
+  "assets/images/youtube.svg": {
+    "file": "assets.ce2f5b8b.svg",
+    "src": "assets/images/youtube.svg"
+  },
+  "index.css": {
+    "file": "assets.8acffa94.css",
+    "src": "index.css"
+  },
+  "index.html": {
+    "css": [
+      "assets.8acffa94.css"
+    ],
+    "dynamicImports": [
+      "src/pages/HomePage.tsx",
+      "src/pages/DashboardPage.tsx",
+      "src/pages/GamePage.tsx"
+    ],
+    "file": "app.5d2e3646.js",
+    "isEntry": true,
+    "src": "index.html"
+  },
+  "src/pages/DashboardPage.tsx": {
+    "file": "app.ada741e7.chunk.js",
+    "imports": [
+      "index.html",
+      "_app.c8c3c00b.chunk.js",
+      "_app.a2f1090a.chunk.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/pages/DashboardPage.tsx"
+  },
+  "src/pages/GamePage.tsx": {
+    "file": "app.32694fb0.chunk.js",
+    "imports": [
+      "index.html",
+      "_app.c8c3c00b.chunk.js",
+      "_app.a2f1090a.chunk.js",
+      "_app.adad9980.chunk.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/pages/GamePage.tsx"
+  },
+  "src/pages/HomePage.tsx": {
+    "file": "app.59a040ba.chunk.js",
+    "imports": [
+      "index.html",
+      "_app.adad9980.chunk.js",
+      "_app.a2f1090a.chunk.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/pages/HomePage.tsx"
+  }
+}
