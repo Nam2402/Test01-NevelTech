@@ -43,9 +43,9 @@
 - Use nodejs version 18
 - `Config for development .env.development`
 
-![Screenshot 2024-09-15 at 17 09 43](https://github.com/user-attachments/assets/1685a828-7a3e-4995-b54a-7a9a18bd8ad7)
-![Screenshot 2024-09-15 at 17 09 35](https://github.com/user-attachments/assets/f36f4b7c-cf08-4590-8868-1863d0cf9a86)
-![Screenshot 2024-09-15 at 17 09 15](https://github.com/user-attachments/assets/04a58dec-041e-471f-9520-08a168f2cc2d)
-![Screenshot 2024-09-15 at 17 08 31](https://github.com/user-attachments/assets/7c849512-4e81-4124-8140-9fee281717dd)
+![Screenshot 2024-09-15 at 17 15 41](https://github.com/user-attachments/assets/0af06dc2-f924-400e-811c-315a457a4d31)
 ![Screenshot 2024-09-15 at 17 08 16](https://github.com/user-attachments/assets/5d6f16f9-cc3f-474f-a523-87a64cd13bf9)
-![Screenshot 2024-09-15 at 17 07 58](https://github.com/user-attachments/assets/3c228eb2-ee1d-4d51-a12b-cc5401c510c0)
+![Screenshot 2024-09-15 at 17 08 31](https://github.com/user-attachments/assets/7c849512-4e81-4124-8140-9fee281717dd)
+![Screenshot 2024-09-15 at 17 09 15](https://github.com/user-attachments/assets/04a58dec-041e-471f-9520-08a168f2cc2d)
+![Screenshot 2024-09-15 at 17 09 35](https://github.com/user-attachments/assets/f36f4b7c-cf08-4590-8868-1863d0cf9a86)
+![Screenshot 2024-09-15 at 17 09 43](https://github.com/user-attachments/assets/1685a828-7a3e-4995-b54a-7a9a18bd8ad7)
